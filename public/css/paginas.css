@@ -1,0 +1,60 @@
+.conta {
+    position: relative;
+    width: 100%;
+    display:flex;
+    margin-bottom: 10%;
+    max-width: 100%;
+    
+    
+  }
+  
+  .image img{
+    display: block;
+    height: 300px; /* Ajuste a altura conforme necessário */
+    object-fit: cover;
+    width: 100%;
+    align-items: center;
+  }
+  
+  .overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgb(112, 156, 197);
+    overflow: hidden;
+    width: 0;
+    height: 100%;
+    transition: .5s ease;
+  
+  }
+  
+  .conta:hover .overlay {
+    width: 100%;
+  }
+  
+  .text {
+    white-space: nowrap; 
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    overflow: hidden;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    
+  }
+  
+  .subtext {
+    color: white;
+    font-size: 16px; /* Ajuste o tamanho do texto conforme necessário */
+    position: absolute;
+    top: 70%; /* Posição relativa ao contêiner */
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    white-space: nowrap;
+    overflow: hidden;
+  }
+  

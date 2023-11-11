@@ -1,0 +1,52 @@
+    .progresso{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .caixa-centralizada {
+        width: 800px;
+        height: 400px;
+        background-color: rgb(194, 194, 194);
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .caixa {
+        width: 600px;
+        height: 80px;
+        background-color: rgb(218, 218, 218);
+        margin: 10px;
+        text-align: center;
+        font-size: 18px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 30px;
+        position: relative;
+    }
+    
+    .caixa-menor {
+        width: 170px;
+        height: 60px;
+        background-color: rgb(250, 197, 75);
+        position: absolute;
+        right: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 14px;
+    }
+
+    .rodape {
+        background-color:  rgb(20, 119, 46); /* Cor de fundo do rodapé */
+        color: #fff; /* Cor do texto do rodapé */
+        text-align: center;
+        padding: 10px;
+        height: 20vh; 
+        width: 100%;
+    }
+
