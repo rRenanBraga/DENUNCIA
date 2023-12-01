@@ -2,8 +2,8 @@
     class Database {
         private $host = 'localhost';
         private $usuario = 'root';
-        private $senha = '';
-        private $banco = '';
+        private $senha = 'renan';
+        private $banco = 'bd_biblioteca';
         private $porta = '3306';
         private $dbh;
         private $stmt;

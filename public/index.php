@@ -6,61 +6,6 @@ include './../app/Libraries/Database.php';
 
 
 $db = new Database;
-/*
-$usuarioId = 10;
-$titulo = 'Titulo do post';
-$texto = 'Texto do post';
-
-$db->query("INSERT INTO posts (usuario_id, titulo, texto
-VALUES (:usuario_id, :titulo, :texto)");
-
-$db->bind(":usuario_id", $usuarioId);
-$db->bind(":titulo", $titulo);
-$db->bind(":texto", $texto);
-
-$db->executa();
-
-echo '<hr>Total Resultados: '.$db->totalResultados();
-echo '<hr>Último id '.$db->ultimoIdInserido();
-
-*/
-
-/*
-date_default_timezone_set('America/Cuiaba');
-
-$id = 1;
-$usuarioId = 100;
-$titulo = 'Titulo do post Editado';
-$texto = 'Texto do post editado';
-$criadoEm = date('Y-m-d H:i:s');
-
-$db->query("UPDATE post SET usuario_id = :usuario_id,
-titulo = :titulo, texto =:texto, criado_em=:criadoEm Where id = :id");
-
-$db->bind(":id",$id);
-$db->bind(":usuario_id",$usuarioId);
-$db->bind(":titulo",$titulo);
-$db->bind(":texto",$texto);
-$db->bind(":criadoEm",$criadoEm);
-
-$db->executa();
-echo '<hr>Total Resultados: '.$db->totalResultados();
-
-
-
-$id = 1;
-$db->query("DELETE FROM posts WHERE id = :id");
-$db->bind(":id",$id);
-
-$db->executa();
-echo '<hr>Total Resultados: '.$db->totalResultados();
-*/
-
-/*
-$db->query("SELECT * FROM posts");
-$db->resultados();
-echo $db->resultado()->titulo;
-*/
 
 ?>
 <!DOCTYPE html>
